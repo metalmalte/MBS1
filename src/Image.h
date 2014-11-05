@@ -45,8 +45,9 @@ public:
    * (between -127 and +128) can be encoded.
    *
    * TODO: Task 3: Choose a suitable PixelType for medical images.
+   * DONE: Hounsfield units 0:4096 -> unsigned int
    */
-  typedef unsigned char PixelType;
+  typedef unsigned int PixelType;
 
   /* Constructor of an image. Creates an image of zero size without
    * allocating the image buffer.*/
